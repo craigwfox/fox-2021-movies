@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+h1 span:first-child {
+  color: hotpink;
+}
+
+h1 span:nth-child(2) {
+  color: aqua;
+}
