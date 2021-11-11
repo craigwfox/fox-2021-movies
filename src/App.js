@@ -1,16 +1,13 @@
-import logo from './pizza.jpg';
 import './App.css';
+import { Counter } from './Counter';
 import PropTypes from 'prop-types';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="LOGO!" />
+      <HelloPizza />
 
-        <HelloPizza />
-        <HelloPizza name="rolls" adjective="sweet" />
-      </header>
+      <Counter />
     </div>
   );
 }
