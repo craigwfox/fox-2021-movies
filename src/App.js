@@ -1,11 +1,14 @@
 import './App.css';
 import { Counter } from './Counter';
+import { Accordion } from './Accordion';
 import PropTypes from 'prop-types';
 
 function App() {
   return (
     <div className="App">
       <HelloPizza />
+
+      <Accordion />
 
       <Counter />
     </div>
