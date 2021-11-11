@@ -60,3 +60,13 @@ button:focus {
 
   color: brown;
 }
+
+input {
+  padding: 1.5rem;
+
+  border: 0.5rem solid salmon;
+  background: antiquewhite;
+
+  color: seagreen;
+  font-size: 2rem;
+}

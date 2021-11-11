@@ -1,6 +1,5 @@
 import './App.css';
-import { Counter } from './Counter';
-import { Accordion } from './Accordion';
+import { Input } from './Input';
 import PropTypes from 'prop-types';
 
 function App() {
@@ -8,9 +7,7 @@ function App() {
     <div className="App">
       <HelloPizza />
 
-      <Accordion />
-
-      <Counter />
+      <Input placeholder="stuffy stuff" />
     </div>
   );
 }
