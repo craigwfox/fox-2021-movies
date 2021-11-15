@@ -4,9 +4,10 @@ import PropTypes from 'prop-types';
 
 function App() {
   return (
-    <div className="App">
+    <main id="maincontent" className="App">
+      <h1>The Foxy movies of 2021 🍿</h1>
       <MoviesList />
-    </div>
+    </main>
   );
 }
 

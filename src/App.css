@@ -63,6 +63,11 @@ button:focus {
   color: brown;
 }
 
+h1 {
+  color: palegoldenrod;
+  text-align: center;
+}
+
 .form {
   display: grid;
   place-content: center;
@@ -79,7 +84,7 @@ button:focus {
   border: 0.5rem solid salmon;
   background: antiquewhite;
 
-  color: seagreen;
+  color: rgb(30, 94, 58);
   font-size: 2rem;
 }
 
