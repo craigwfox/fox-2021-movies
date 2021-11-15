@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { Movie } from "./Movie"
+import { Filter } from "../Filter"
 
 const movies = [
   {
@@ -248,16 +250,13 @@ export function MoviesList() {
 
   return (
     <div className="movies-list">
-      <div className="form">
-        <label htmlFor="filtering">Search for movies</label>
-        <input id="filtering" onChange={(e) => setFilter(e.target.value)} value={filter} />
-      </div>
+      <Filter filter={filter} setFilter={setFilter} />
 
       <ul>
         { movies.filter((movie) =>
             movie.name.toLowerCase().includes(filter.toLowerCase())
           ).map((movie) => (
-            <li key={movie.name}>{movie.name}</li>
+            <Movie key={movie.name} movie={movie} />
           )
         )}
       </ul>
