@@ -1,5 +1,5 @@
 import './App.css';
-import { MoviesList } from './MoviesList';
+import { MoviesList } from './movies/MoviesList';
 import PropTypes from 'prop-types';
 
 function App() {
