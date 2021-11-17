@@ -1,0 +1,666 @@
+[
+  {
+    "name": "2 Fast 2 Furious",
+    "genre": "Action",
+    "director": "John Singleton",
+    "date_watched": "06/04/2021",
+    "rewatch": "TRUE",
+    "rating": "Bad"
+  },
+  {
+    "name": "Abraham Lincoln: Vampire Hunter",
+    "genre": "Action, Comedy",
+    "director": "Timur Bekmambetov",
+    "date_watched": "06/11/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "An American Pickle",
+    "genre": "Comedy",
+    "director": "Brandon Trost",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Anette",
+    "genre": "Drama, Musical, Romance",
+    "director": "Leos Carax",
+    "date_watched": "10/29/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Army of the Dead",
+    "genre": "Action",
+    "director": "Zack Snyder",
+    "date_watched": "05/21/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Bad Education",
+    "genre": "Biography, Drama",
+    "director": "Cory Finley",
+    "date_watched": "08/27/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Big Eyes",
+    "genre": "Biography, Drama",
+    "director": "Tim Burton",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Birdman",
+    "genre": "Comedy, Drama",
+    "director": "Alejandro G. Iñárritu",
+    "date_watched": "09/24/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Black Widow",
+    "genre": "Action, Adventure",
+    "director": "Cate Shortland",
+    "date_watched": "10/08/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Bladerunner",
+    "genre": "Action, Drama",
+    "director": "Ridely Scott",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Blood Red Sky",
+    "genre": "Action, Horror",
+    "director": "Peter Thorwarth",
+    "date_watched": "07/30/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Captain Fantastic",
+    "genre": "Comedy, Drama",
+    "director": "Matt Ross",
+    "date_watched": "10/15/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Cats (2018)",
+    "genre": "Animated",
+    "director": "Gary Wang",
+    "date_watched": "05/28/2021",
+    "rewatch": "FALSE",
+    "rating": "Bad"
+  },
+  {
+    "name": "Come Away",
+    "genre": "Drama",
+    "director": "Brenda Chapman",
+    "date_watched": "05/14/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Cruellella",
+    "genre": "Adventure, Comedy",
+    "director": "Craig Gillespie",
+    "date_watched": "09/08/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Dark Phoenix",
+    "genre": "Action",
+    "director": "Simon Kinberg",
+    "date_watched": "09/03/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "genre": "Action",
+    "director": "Lewis Milestone",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Enola Holmes",
+    "genre": "Adventure, Mystery",
+    "director": "Harry Bradbeer",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Fast and Furious (2009)",
+    "genre": "Action, Adventure",
+    "director": "Justin Lin",
+    "date_watched": "06/18/2021",
+    "rewatch": "TRUE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Fast and the Furious (2001)",
+    "genre": "Action",
+    "director": "Rob Cohen",
+    "date_watched": "06/04/2021",
+    "rewatch": "TRUE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Fear Street: Part One - 1994",
+    "genre": "Horror, Mystery",
+    "director": "Leigh Janiak",
+    "date_watched": "08/13/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Fear Street: Part Three - 1666",
+    "genre": "Horror, Mystery",
+    "director": "Leigh Janiak",
+    "date_watched": "08/14/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Fear Street: Part Two - 1978",
+    "genre": "Horror, Mystery",
+    "director": "Leigh Janiak",
+    "date_watched": "08/13/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Ford vs Ferrari",
+    "genre": "Action, Biography, Drama",
+    "director": "James Mangold",
+    "date_watched": "04/23/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Ghostbusters",
+    "genre": "Action, Comedy",
+    "director": "Ivan Reitman",
+    "date_watched": 2021,
+    "rewatch": "TRUE",
+    "rating": "Great"
+  },
+  {
+    "name": "Godzilla",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Gareth Edwards",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Godzilla vs. Kong",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Adam Wingard",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Godzilla: King of the Monsters",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Michael Dougherty",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Gunpowder Milkshake",
+    "genre": "Action, Adventure",
+    "director": "Navot Papushado",
+    "date_watched": "08/20/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Guns Akimbo",
+    "genre": "Action, Comedy, Thriller",
+    "director": "Jason Lei Howden",
+    "date_watched": "03/20/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Horns",
+    "genre": "Comedy, Crime, Drama",
+    "director": "Alexandre Aja",
+    "date_watched": "04/09/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Hotel Coppelia",
+    "genre": "Drama",
+    "director": "José María Cabral",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "I Care a Lot",
+    "genre": "Dark Comedy",
+    "director": "J Blakeson",
+    "date_watched": "02/19/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Intersteller",
+    "genre": "Adventue, Drama, Sci-Fi",
+    "director": "Christopher Nolan",
+    "date_watched": "10/22/2021",
+    "rewatch": "FALSE",
+    "rating": "Great"
+  },
+  {
+    "name": "Judas and the Black Messiah",
+    "genre": "Biography, Drama, History",
+    "director": "Shaka King",
+    "date_watched": "11/05/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Just Mercy",
+    "genre": "Biography, Crime, Drama",
+    "director": "Destin Daniel Cretton",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Kajillionaire",
+    "genre": "Comedy, Crime, Drama",
+    "director": "Miranda July",
+    "date_watched": "11/12/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Kill Bill Vol 1",
+    "genre": "Action, Drama",
+    "director": "Quentin Tarantino",
+    "date_watched": 2021,
+    "rewatch": "TRUE",
+    "rating": "Great"
+  },
+  {
+    "name": "Knight's of Badassdom",
+    "genre": "Action, Adventure, Comedy",
+    "director": "Joe Lynch",
+    "date_watched": "04/02/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Kong: Skull Island",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Jordan Vogt-Roberts",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Les Miserables",
+    "genre": "Drama, Musical, Romance",
+    "director": "Tom Hooper",
+    "date_watched": "11/12/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Ma Rainey's Black Bottom",
+    "genre": "Drama",
+    "director": "George C. Wolfe",
+    "date_watched": "04/30/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Midnight Sky",
+    "genre": "Drama, Sci-Fi",
+    "director": "George Clooney",
+    "date_watched": "03/26/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Midway",
+    "genre": "Action, History",
+    "director": "Roland Emmerich",
+    "date_watched": "06/11/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Miles Davis: The Birth of Cool",
+    "genre": "Biography",
+    "director": "Stanley Nelson",
+    "date_watched": "04/23/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Minari",
+    "genre": "Drama",
+    "director": "Lee Isaac Chung",
+    "date_watched": "10/22/2021",
+    "rewatch": "FALSE",
+    "rating": "Great"
+  },
+  {
+    "name": "Moxie",
+    "genre": "Drama",
+    "director": "Amy Poehler",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "News of the World",
+    "genre": "Adventure, Drama",
+    "director": "Paul Greengrass",
+    "date_watched": "09/10/2021",
+    "rewatch": "FALSE",
+    "rating": "Great"
+  },
+  {
+    "name": "Night Teeth",
+    "genre": "Action, Crime, Drama",
+    "director": "Adam Randall",
+    "date_watched": "10/23/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Nobody",
+    "genre": "Action, Crime, Drama",
+    "director": "Ilya Naishuller",
+    "date_watched": "11/05/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "One Hour Photo",
+    "genre": "Drama, Thriller",
+    "director": "Mark Romanek",
+    "date_watched": "10/15/2021",
+    "rewatch": "FALSE",
+    "rating": "Great"
+  },
+  {
+    "name": "One Night in Miami",
+    "genre": "Drama",
+    "director": "Regina King",
+    "date_watched": "04/30/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Red Notice",
+    "genre": "Action, Adventure, Comedy",
+    "director": "Rawson Marshall Thurber",
+    "date_watched": "11/13/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Rememory",
+    "genre": "Drama, Mystery, Sci-Fi",
+    "director": "Mark Palansky",
+    "date_watched": "03/12/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "Reminiscence",
+    "genre": "Mystery, Romance, Sci-Fi",
+    "director": "Lisa Joy",
+    "date_watched": "08/20/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Saving Mr. Banks",
+    "genre": "Drama",
+    "director": "John Lee Hancock",
+    "date_watched": "01/22/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Sherlock Holmes",
+    "genre": "Action, Adventure, Mystery",
+    "director": "Guy Ritchie",
+    "date_watched": "01/02/2021",
+    "rewatch": "TRUE",
+    "rating": "Good"
+  },
+  {
+    "name": "Shirley",
+    "genre": "Biography, Drama",
+    "director": "Josephine Decker",
+    "date_watched": "08/27/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Sonic the Hedgehog",
+    "genre": "Action, Adventure",
+    "director": "Jeff Fowler",
+    "date_watched": "06/20/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Birds of Prey",
+    "genre": "Action, Comedy",
+    "director": "Cathy Yan",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Danish Girl",
+    "genre": "Biography, Drama, Romance",
+    "director": "Tom Hopper",
+    "date_watched": "02/05/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Dead Don't Die",
+    "genre": "Comedy, Fantasy, Horror",
+    "director": "Jim Jarmusch",
+    "date_watched": "05/07/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "The Devil All the Time",
+    "genre": "Drama",
+    "director": "Antonio Campos",
+    "date_watched": "01/22/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Dig",
+    "genre": "Biography, Drama",
+    "director": "Simon Stone",
+    "date_watched": "02/19/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Disaster Artist",
+    "genre": "Biography, Comedy",
+    "director": "James Franco",
+    "date_watched": "09/10/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Great Debaters",
+    "genre": "Biography, Drama",
+    "director": "Denzel Washington",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Great"
+  },
+  {
+    "name": "The Green Knight",
+    "genre": "",
+    "director": "",
+    "date_watched": "10/29/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Guilty",
+    "genre": "Crime, Drama, Thriller",
+    "director": "Antoine Fuqua",
+    "date_watched": "10/01/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Lighthouse",
+    "genre": "Drama, Mystery",
+    "director": "Robert Eggers",
+    "date_watched": "05/21/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "The Little Things",
+    "genre": "Drama",
+    "director": "John Lee Hancock",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "The Many Saints of Newark",
+    "genre": "Crime, Drama",
+    "director": "Alan Taylor",
+    "date_watched": "10/11/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "The Polka King",
+    "genre": "Biography, Comedy, Drama",
+    "director": "Maya Forbes",
+    "date_watched": "03/12/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Report",
+    "genre": "Drama",
+    "director": "Scott Z. Burns",
+    "date_watched": "05/14/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Room",
+    "genre": "Drama",
+    "director": "Tommy Wiseau",
+    "date_watched": "09/24/2021",
+    "rewatch": "FALSE",
+    "rating": "Bad"
+  },
+  {
+    "name": "The Suicide Squad",
+    "genre": "Action, Comedy",
+    "director": "James Gunn",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Theory of Everything",
+    "genre": "Biography, Drama, Romance",
+    "director": "James Marsh",
+    "date_watched": "03/26/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Trial of the Chicago 7",
+    "genre": "Drama, History, Thriller",
+    "director": "Aaron Sorkin",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "The Vault",
+    "genre": "Action, Adventure",
+    "director": "Jaume Balagueró",
+    "date_watched": "08/20/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "The Woman in the Window",
+    "genre": "Drama, Mystery",
+    "director": "Joe Wright",
+    "date_watched": "05/28/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "Thunder Force",
+    "genre": "Action, Adventure, Comedy",
+    "director": "Ben Falcone",
+    "date_watched": "04/16/2021",
+    "rewatch": "FALSE",
+    "rating": "Ok"
+  },
+  {
+    "name": "War Dogs",
+    "genre": "Comedy, Drama",
+    "director": "Todd Phillips",
+    "date_watched": "10/01/2021",
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
+    "name": "",
+    "genre": "",
+    "director": "",
+    "date_watched": "",
+    "rewatch": "FALSE",
+    "rating": ""
+  },
+  {
+    "name": "",
+    "genre": "",
+    "director": "",
+    "date_watched": "",
+    "rewatch": "FALSE",
+    "rating": ""
+  }
+]
