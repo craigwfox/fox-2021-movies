@@ -2,7 +2,9 @@ import { useState, useEffect } from "react"
 import { Movie } from "./Movie"
 import { Filter } from "../Filter"
 
-const API_URL = ' https://api.themoviedb.org/3/discover/movie?api_key=***REMOVED***&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate'
+const MOVIE_JSON = './movies.json'
+const API_URL = 'https://api.themoviedb.org/3/search/movie?api_key=***REMOVED***&language=en-US&page=1&include_adult=false'
+// const API_URL = 'https://api.themoviedb.org/3/discover/movie?api_key=***REMOVED***&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate'
 
 export function MoviesList() {
   const [filter, setFilter] = useState("")
@@ -10,10 +12,32 @@ export function MoviesList() {
 
   const getMovies = async () => {
     try {
-      const res = await fetch(API_URL)
-      const movies = await res.json()
+      const response = await fetch(MOVIE_JSON)
+      const movies = await response.json()
+      const moviesNew = []
 
-      setMovies(movies.results)
+      for await (const movie of movies) {
+        const res = await fetch(`${API_URL}&query=${movie.title}&year=${movie.year}`)
+        const resJson = await res.json()
+        const data = await resJson.results[0]
+
+        if(data) {
+          moviesNew.push({
+            title: movie.title,
+            genre: movie.genre,
+            director: movie.director,
+            date_watched: movie.date_watched,
+            rewatch: movie.rewatch,
+            my_rating: movie.rating,
+            user_rating: data.vote_average,
+            release: data.release_date,
+            poster: data.poster_path,
+            overview: data.overview
+          })
+        }
+      }
+
+      setMovies(moviesNew)
     } catch (e) {
       console.error(e)
     }
@@ -27,14 +51,14 @@ export function MoviesList() {
     <div className="movies-list">
       <Filter filter={filter} setFilter={setFilter} />
 
-      <ul>
+      <section>
         { movies.filter((movie) =>
             movie.title.toLowerCase().includes(filter.toLowerCase())
           ).map((movie) => (
             <Movie key={movie.id} movie={movie} />
           )
         )}
-      </ul>
+      </section>
     </div>
   )
 }
