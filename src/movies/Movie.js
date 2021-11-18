@@ -18,5 +18,8 @@ export function Movie({ movie }) {
 Movie.propTypes = {
   movie: PropTypes.shape({
     title: PropTypes.string.isRequired,
+    poster: PropTypes.string.isRequired,
+    date_watched: PropTypes.string.isRequired,
+    my_rating: PropTypes.string.isRequired,
   }).isRequired
 }
