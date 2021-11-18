@@ -4,7 +4,9 @@ export function Movie({ movie }) {
   return (
     <article>
       <h2>{movie.title}</h2>
-      <img src={movie.poster} alt={`Poster for ${movie.title}`} />
+      <div className="poster">
+        <img src={movie.poster} alt={`Poster for ${movie.title}`} />
+      </div>
       <ul>
         <li><strong>Watch date:</strong> {movie.date_watched}</li>
         <li><strong>My rating:</strong> {movie.my_rating}</li>
