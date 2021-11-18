@@ -65,7 +65,7 @@ h1 {
   text-align: center;
 }
 
-.movies-list ul {
+.movies-list section {
   width: 100%;
 
   display: grid;
@@ -73,16 +73,17 @@ h1 {
   gap: 1.5rem;
 
   margin: 3rem 0 0;
-  padding: 0;
-
-  list-style-type: none;
 }
 
-.movies-list li {
+.movies-list article {
   display: grid;
   place-content: center;
 
   padding: 1.7rem;
 
   background-color: #1f232b;
+}
+
+.movies-list h2 {
+  font-size: 2rem;
 }
