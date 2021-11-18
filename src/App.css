@@ -9,7 +9,7 @@ html {
 body {
   padding: 2rem;
 
-  background-color: #282c34;
+  background-color: #251f2c;
 
   color: white;
 }
@@ -87,9 +87,12 @@ img {
   place-content: center;
   gap: 1rem;
 
+  overflow: hidden;
+
   padding-right: var(--spacing);
 
-  background-color: #1f232b;
+  background-color: #160b24;
+  border-radius: 0 3rem 0 3rem;
 }
 
 .movies-list h2 {
@@ -98,7 +101,7 @@ img {
 
   margin: var(--spacing) 0 0;
 
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 .movies-list .poster {
@@ -122,9 +125,12 @@ img {
 }
 
 .movies-list li {
-  font-size: 1.8rem;
+  color: salmon;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .movies-list strong {
-  color: #aaa;
+  color: #fff;
+  font-weight: 700;
 }
