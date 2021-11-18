@@ -68,7 +68,7 @@ export function MoviesList() {
     <div className="movies-wrapper">
       <Filter filter={filter} setFilter={setFilter} />
 
-      <section className="movies-list">
+      <section className="movies-list" aria-label="Movies list">
         { movies.filter((movie) =>
             movie.title.toLowerCase().includes(filter.toLowerCase())
           ).map((movie) => (
