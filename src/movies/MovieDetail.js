@@ -39,6 +39,7 @@ export function MovieDetail() {
             )}
           </ul>
           <h1>{ movie.title }</h1>
+          <p>{ movie.overview }</p>
         </div>
       </main>
     </div>
