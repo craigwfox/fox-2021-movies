@@ -19,7 +19,7 @@
     "title": "An American Pickle",
     "genre": "Comedy",
     "director": "Brandon Trost",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -52,7 +52,7 @@
     "title": "Big Eyes",
     "genre": "Biography, Drama",
     "director": "Tim Burton",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -69,7 +69,7 @@
     "year": "2020",
     "genre": "Action, Comedy",
     "director": "Cathy Yan",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -86,7 +86,7 @@
     "year": "1982",
     "genre": "Action, Drama",
     "director": "Ridely Scott",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -135,7 +135,7 @@
     "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
     "genre": "Action",
     "director": "Lewis Milestone",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Ok"
   },
@@ -143,7 +143,7 @@
     "title": "Enola Holmes",
     "genre": "Adventure, Mystery",
     "director": "Harry Bradbeer",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -200,7 +200,7 @@
     "year": "1984",
     "genre": "Action, Comedy",
     "director": "Ivan Reitman",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "TRUE",
     "rating": "Great"
   },
@@ -209,7 +209,7 @@
     "year": "2014",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Gareth Edwards",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Ok"
   },
@@ -218,7 +218,7 @@
     "year": "2021",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Adam Wingard",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -226,7 +226,7 @@
     "title": "Godzilla: King of the Monsters",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Michael Dougherty",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -258,7 +258,7 @@
     "title": "Hotel Coppelia",
     "genre": "Drama",
     "director": "José María Cabral",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -290,7 +290,7 @@
     "title": "Just Mercy",
     "genre": "Biography, Crime, Drama",
     "director": "Destin Daniel Cretton",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -306,7 +306,7 @@
     "title": "Kill Bill Vol 1",
     "genre": "Action, Drama",
     "director": "Quentin Tarantino",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "TRUE",
     "rating": "Great"
   },
@@ -322,7 +322,7 @@
     "title": "Kong: Skull Island",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Jordan Vogt-Roberts",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -379,7 +379,7 @@
     "title": "Moxie",
     "genre": "Drama",
     "director": "Amy Poehler",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -523,7 +523,7 @@
     "title": "The Great Debaters",
     "genre": "Biography, Drama",
     "director": "Denzel Washington",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Great"
   },
@@ -555,7 +555,7 @@
     "title": "The Little Things",
     "genre": "Drama",
     "director": "John Lee Hancock",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Ok"
   },
@@ -595,7 +595,7 @@
     "title": "The Suicide Squad",
     "genre": "Action, Comedy",
     "director": "James Gunn",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
@@ -611,7 +611,7 @@
     "title": "The Trial of the Chicago 7",
     "genre": "Drama, History, Thriller",
     "director": "Aaron Sorkin",
-    "date_watched": 2021,
+    "date_watched": "2021",
     "rewatch": "FALSE",
     "rating": "Good"
   },
