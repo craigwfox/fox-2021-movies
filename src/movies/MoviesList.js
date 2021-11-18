@@ -4,10 +4,11 @@ import { Filter } from "../Filter"
 
 const MOVIE_JSON = './movies.json'
 const API_URL = 'https://api.themoviedb.org/3/search/movie?api_key=***REMOVED***&language=en-US&page=1&include_adult=false'
-// const API_URL = 'https://api.themoviedb.org/3/discover/movie?api_key=***REMOVED***&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate'
+const CONFIG_URL = 'https://api.themoviedb.org/3/configuration?api_key=***REMOVED***'
 
 export function MoviesList() {
   const [filter, setFilter] = useState("")
+  const [config, setConfig] = useState({})
   const [movies, setMovies] = useState([])
 
   const getMovies = async () => {
@@ -33,7 +34,7 @@ export function MoviesList() {
             id: data.id,
             user_rating: data.vote_average,
             release: data.release_date,
-            poster: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/' + data.poster_path,
+            poster: data.poster_path,
             overview: data.overview
           })
         } else {
@@ -47,7 +48,19 @@ export function MoviesList() {
     }
   }
 
+  const getConfig = async () => {
+    try {
+      const res = await fetch(CONFIG_URL)
+      const config = await res.json()
+
+      setConfig(config)
+    } catch (e) {
+      console.error(e)
+    }
+  }
+
   useEffect(() => {
+    getConfig()
     getMovies()
   }, [])
 
@@ -59,7 +72,7 @@ export function MoviesList() {
         { movies.filter((movie) =>
             movie.title.toLowerCase().includes(filter.toLowerCase())
           ).map((movie) => (
-            <Movie key={movie.id} movie={movie} />
+            <Movie key={movie.id} config={config} movie={movie} />
           )
         )}
       </section>

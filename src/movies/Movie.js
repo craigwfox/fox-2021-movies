@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types'
 
-export function Movie({ movie }) {
+export function Movie({ movie, config }) {
   return (
     <article>
       <h2>{movie.title}</h2>
       <div className="poster">
-        <img src={movie.poster} alt={`Poster for ${movie.title}`} />
+        {config.images?.base_url && (
+          <img src={config.images.base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
+        )}
       </div>
       <ul>
         <li><strong>Watch date:</strong> {movie.date_watched}</li>
