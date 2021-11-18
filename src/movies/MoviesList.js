@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Movie } from "./Movie"
 import { Filter } from "../Filter"
+import { Header } from "../Header"
 
 const MOVIE_JSON = './movies.json'
 const API_URL = 'https://api.themoviedb.org/3/search/movie?api_key=***REMOVED***&language=en-US&page=1&include_adult=false'
@@ -65,17 +66,22 @@ export function MoviesList() {
   }, [])
 
   return (
-    <div className="movies-wrapper">
-      <Filter filter={filter} setFilter={setFilter} />
+    <div className="page-wrapper">
+      <Header />
+      <main id="maincontent" className="App main">
+        <div className="movies-wrapper">
+          <Filter filter={filter} setFilter={setFilter} />
 
-      <section className="movies-list" aria-label="Movies list">
-        { movies.filter((movie) =>
-            movie.title.toLowerCase().includes(filter.toLowerCase())
-          ).map((movie) => (
-            <Movie key={movie.id} config={config} movie={movie} />
-          )
-        )}
-      </section>
+          <section className="movies-list" aria-label="Movies list">
+            { movies.filter((movie) =>
+                movie.title.toLowerCase().includes(filter.toLowerCase())
+              ).map((movie) => (
+                <Movie key={movie.id} config={config} movie={movie} />
+              )
+            )}
+          </section>
+        </div>
+      </main>
     </div>
   )
 }

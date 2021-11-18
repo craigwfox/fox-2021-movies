@@ -34,15 +34,19 @@ img {
   border-bottom: 1px solid salmon;
 }
 
-.site-header h1 {
+.site-name {
   margin: 0;
 
   font-size: 6rem;
 }
 
-.site-header h1 {
+.site-name {
   color: palegoldenrod;
   text-align: center;
+}
+
+.site-name a {
+  color: inherit;
 }
 
 /* ====---------------====

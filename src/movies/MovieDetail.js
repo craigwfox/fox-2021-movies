@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
+import { Header } from "../Header"
 
 const BASE_URL = 'https://api.themoviedb.org/3/movie/'
 const API_KEY = '?api_key=***REMOVED***'
@@ -28,14 +29,18 @@ export function MovieDetail() {
   if(!movie.title) return null
 
   return (
-    <div>
-      <ul>
-        {movie.genres.map( (genre) => (
-          <li key={ genre.name }>{ genre.name }</li>)
-        )}
-      </ul>
-      <h1>{ movie.title }</h1>
-      <p>{ movie.overview }</p>
+    <div className="page-wrapper">
+      <Header />
+      <main id="maincontent" className="App main">
+        <div className="movies-single">
+          <ul>
+            {movie.genres.map( (genre) => (
+              <li key={ genre.name }>{ genre.name }</li>)
+            )}
+          </ul>
+          <h1>{ movie.title }</h1>
+        </div>
+      </main>
     </div>
   )
 }
