@@ -6,7 +6,7 @@ export function Movie({ movie, config }) {
       <h2>{movie.title}</h2>
       <div className="poster">
         {config.images?.base_url && (
-          <img src={config.images.base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
+          <img src={config.images.secure_base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
         )}
       </div>
       <ul>
