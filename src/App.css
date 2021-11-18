@@ -19,40 +19,53 @@ body {
   font-size: 2rem;
 }
 
-h1 {
-  margin-bottom: 3rem;
-
-  font-size: 6rem;
-}
-
-h1 span:first-child {
-  color: hotpink;
-  font-size: 150%;
-}
-
-h1 span:nth-child(2) {
-  color: aqua;
-  font-size: 150%;
-}
-
-h1 {
-  color: palegoldenrod;
-  text-align: center;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* ====---------------====
+  Header
+=======---------------= */
+.site-header {
+  padding: 1rem 2rem 2rem;
+  margin-bottom: 1.5rem;
+
+  border-bottom: 1px solid salmon;
+}
+
+.site-header h1 {
+  margin: 0;
+
+  font-size: 6rem;
+}
+
+.site-header h1 {
+  color: palegoldenrod;
+  text-align: center;
+}
+
+/* ====---------------====
+  Main
+=======---------------= */
+.main h1 {
+  color: palegoldenrod;
+  font-size: 4rem;
+}
+
+/* ====---------------====
+  Movie list
+=======---------------= */
 .form {
   display: grid;
   place-content: center;
   gap: 1rem;
+
+  text-align: center;
 }
 
 .form label {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
