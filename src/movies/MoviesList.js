@@ -23,17 +23,21 @@ export function MoviesList() {
 
         if(data) {
           moviesNew.push({
-            title: movie.title,
+            title: data.title,
+            title_mine: movie.title,
             genre: movie.genre,
             director: movie.director,
             date_watched: movie.date_watched,
             rewatch: movie.rewatch,
             my_rating: movie.rating,
+            id: data.id,
             user_rating: data.vote_average,
             release: data.release_date,
-            poster: data.poster_path,
+            poster: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/' + data.poster_path,
             overview: data.overview
           })
+        } else {
+          console.log(`Missing:  ${movie.title}`)
         }
       }
 

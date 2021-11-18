@@ -25,6 +25,7 @@
   },
   {
     "title": "Anette",
+    "year": "2021",
     "genre": "Drama, Musical, Romance",
     "director": "Leos Carax",
     "date_watched": "10/29/2021",
@@ -64,6 +65,15 @@
     "rating": "Ok"
   },
   {
+    "title": "Birds of Prey",
+    "year": "2020",
+    "genre": "Action, Comedy",
+    "director": "Cathy Yan",
+    "date_watched": 2021,
+    "rewatch": "FALSE",
+    "rating": "Good"
+  },
+  {
     "title": "Black Widow",
     "genre": "Action, Adventure",
     "director": "Cate Shortland",
@@ -72,7 +82,8 @@
     "rating": "Good"
   },
   {
-    "title": "Bladerunner",
+    "title": "Blade Runner",
+    "year": "1982",
     "genre": "Action, Drama",
     "director": "Ridely Scott",
     "date_watched": 2021,
@@ -96,14 +107,6 @@
     "rating": "Good"
   },
   {
-    "title": "Cats (2018)",
-    "genre": "Animated",
-    "director": "Gary Wang",
-    "date_watched": "05/28/2021",
-    "rewatch": "FALSE",
-    "rating": "Bad"
-  },
-  {
     "title": "Come Away",
     "genre": "Drama",
     "director": "Brenda Chapman",
@@ -112,7 +115,8 @@
     "rating": "Good"
   },
   {
-    "title": "Cruellella",
+    "title": "Cruella",
+    "year": "2021",
     "genre": "Adventure, Comedy",
     "director": "Craig Gillespie",
     "date_watched": "09/08/2021",
@@ -202,6 +206,7 @@
   },
   {
     "title": "Godzilla",
+    "year": "2014",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Gareth Edwards",
     "date_watched": 2021,
@@ -210,6 +215,7 @@
   },
   {
     "title": "Godzilla vs. Kong",
+    "year": "2021",
     "genre": "Action, Adventure, Sci-Fi",
     "director": "Adam Wingard",
     "date_watched": 2021,
@@ -305,7 +311,7 @@
     "rating": "Great"
   },
   {
-    "title": "Knight's of Badassdom",
+    "title": "Knights of Badassdom",
     "genre": "Action, Adventure, Comedy",
     "director": "Joe Lynch",
     "date_watched": "04/02/2021",
@@ -353,7 +359,8 @@
     "rating": "Good"
   },
   {
-    "title": "Miles Davis: The Birth of Cool",
+    "title": "Miles Davis: Birth of the cool",
+    "year": "2019",
     "genre": "Biography",
     "director": "Stanley Nelson",
     "date_watched": "04/23/2021",
@@ -469,14 +476,6 @@
     "genre": "Action, Adventure",
     "director": "Jeff Fowler",
     "date_watched": "06/20/2021",
-    "rewatch": "FALSE",
-    "rating": "Good"
-  },
-  {
-    "title": "The Birds of Prey",
-    "genre": "Action, Comedy",
-    "director": "Cathy Yan",
-    "date_watched": 2021,
     "rewatch": "FALSE",
     "rating": "Good"
   },

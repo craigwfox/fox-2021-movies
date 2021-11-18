@@ -4,6 +4,7 @@ export function Movie({ movie }) {
   return (
     <article>
       <h2>{movie.title}</h2>
+      <img src={movie.poster} alt={`Poster for ${movie.title}`} />
     </article>
   )
 }
@@ -11,6 +12,5 @@ export function Movie({ movie }) {
 Movie.propTypes = {
   movie: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    poster: PropTypes.string.isRequired
   }).isRequired
 }
