@@ -65,10 +65,10 @@ export function MoviesList() {
   }, [])
 
   return (
-    <div className="movies-list">
+    <div className="movies-wrapper">
       <Filter filter={filter} setFilter={setFilter} />
 
-      <section>
+      <section className="movies-list">
         { movies.filter((movie) =>
             movie.title.toLowerCase().includes(filter.toLowerCase())
           ).map((movie) => (

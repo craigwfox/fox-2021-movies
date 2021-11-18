@@ -66,11 +66,11 @@ img {
   font-size: 2rem;
 }
 
-.movies-list {
+.movies-wrapper {
   --spacing: 0.75rem;
 }
 
-.movies-list section {
+.movies-list {
   width: 100%;
 
   display: grid;
