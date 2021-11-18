@@ -117,6 +117,16 @@ img {
   font-size: 1.8rem;
 }
 
+.movies-list h2 a,
+.movies-list h2 a:visited {
+  color: inherit;
+}
+
+.movies-list h2 a:hover,
+.movies-list h2 a:focus {
+  color: lightgreen;
+}
+
 .movies-list .poster {
   grid-row: 1 / -1;
   grid-column: 1;
@@ -138,7 +148,7 @@ img {
 }
 
 .movies-list li {
-  color: salmon;
+  color: lightseagreen;
   font-size: 1.6rem;
   font-weight: 700;
 }

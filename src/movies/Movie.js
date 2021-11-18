@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export function Movie({ movie, config }) {
   return (
     <article>
-      <h2>{movie.title}</h2>
+      <h2>
+        <Link to="/details">
+          {movie.title}
+        </Link>
+      </h2>
       <div className="poster">
         {config.images?.base_url && (
           <img src={config.images.secure_base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
