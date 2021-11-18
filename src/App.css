@@ -130,6 +130,20 @@ img {
 .movies-list .poster {
   grid-row: 1 / -1;
   grid-column: 1;
+  display: flex;
+}
+
+.movies-list .poster a {
+  border-radius: 0 0 0 3rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.movies-list .poster a:hover,
+.movies-list .poster a:focus {
+  display: flex;
+  overflow: hidden;
+
+  border: 4px solid lightgreen;
 }
 
 .movies-list .poster img {

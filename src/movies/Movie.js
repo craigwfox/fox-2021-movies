@@ -10,9 +10,11 @@ export function Movie({ movie, config }) {
         </Link>
       </h2>
       <div className="poster">
-        {config.images?.base_url && (
-          <img src={config.images.secure_base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
-        )}
+        <Link to="/details">
+          {config.images?.base_url && (
+            <img src={config.images.secure_base_url + config.images.poster_sizes[4] + movie.poster} alt={`Poster for ${movie.title}`} />
+          )}
+        </Link>
       </div>
       <ul>
         <li><strong>Watch date:</strong> {movie.date_watched}</li>
