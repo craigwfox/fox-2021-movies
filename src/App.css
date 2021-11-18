@@ -40,6 +40,11 @@ h1 {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .form {
   display: grid;
   place-content: center;
@@ -62,7 +67,7 @@ h1 {
 }
 
 .movies-list {
-  text-align: center;
+  --spacing: 0.75rem;
 }
 
 .movies-list section {
@@ -70,24 +75,50 @@ h1 {
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  gap: 2.5rem;
 
   margin: 3rem 0 0;
 }
 
 .movies-list article {
   display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 1fr;
   place-content: center;
+  gap: 1rem;
 
-  padding: 1.7rem;
+  padding-right: var(--spacing);
 
   background-color: #1f232b;
 }
 
 .movies-list h2 {
+  grid-row: 1;
+  grid-column: 2;
+
+  margin: var(--spacing) 0 0;
+
   font-size: 2.2rem;
 }
 
-.movies-list h3 {
-  font-size: 1.9rem;
+.movies-list img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+.movies-list ul {
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0 0 var(--spacing);
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.movies-list li {
+  font-size: 1.8rem;
+}
+
+.movies-list strong {
+  color: #aaa;
 }
