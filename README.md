@@ -1,5 +1,7 @@
 # The Foxy movies of 2021 🍿
 
+[Todo list](./Todo.md)
+
 This is a list of all (most) movies my wife and I watched in 2021.
 
 ## Available Scripts
