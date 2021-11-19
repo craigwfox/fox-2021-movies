@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# The Foxy movies of 2021 🍿
+
+This is a list of all (most) movies my wife and I watched in 2021.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
