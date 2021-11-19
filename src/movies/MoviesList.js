@@ -4,8 +4,8 @@ import { Filter } from "../Filter"
 import { Header } from "../Header"
 
 const MOVIE_JSON = './movies.json'
-const API_URL = 'https://api.themoviedb.org/3/search/movie?api_key=***REMOVED***&language=en-US&page=1&include_adult=false'
-const CONFIG_URL = 'https://api.themoviedb.org/3/configuration?api_key=***REMOVED***'
+const API_URL = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_MOVIE_API}&language=en-US&page=1&include_adult=false`
+const CONFIG_URL = `https://api.themoviedb.org/3/configuration?api_key=${process.env.REACT_APP_MOVIE_API}`
 
 export function MoviesList() {
   const [filter, setFilter] = useState("")

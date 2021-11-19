@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 import { Header } from "../Header"
 
 const BASE_URL = 'https://api.themoviedb.org/3/movie/'
-const API_KEY = '?api_key=***REMOVED***'
-const CONFIG_URL = 'https://api.themoviedb.org/3/configuration?api_key=***REMOVED***'
+const API_KEY = `?api_key=${process.env.REACT_APP_MOVIE_API}`
+const CONFIG_URL = `https://api.themoviedb.org/3/configuration?api_key=${process.env.REACT_APP_MOVIE_API}`
 
 // {config, extras}
 export function MovieDetail() {
